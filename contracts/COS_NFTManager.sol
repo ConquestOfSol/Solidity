@@ -14,7 +14,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "./COS_Util.sol";
 
-contract ConquestOfSolNFTManager is Ownable, ReentrancyGuard, Pausable {
+contract CSOLNFTMANAGER is Ownable, ReentrancyGuard, Pausable {
     using SafeMath for uint256;
     using Counters for Counters.Counter;
 
